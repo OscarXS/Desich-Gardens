@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/whatsapp.css">
+</head>
+<body>
+
+<div class="nav-bottom">
+    <div class="popup-whatsapp fadeIn">
+        <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                <i class="material-icons icon-font-color">close</i>
+            </button>
+            <p>Hello, need help?</p>
+        </div>
+        <div class="content-whatsapp -bottom">
+            <input class="whats-input" id="whats-in" type="text" Placeholder="Send message..." />
+            <button class="send-msPopup" id="send-btn" type="button">
+                <i class="material-icons icon-font-color--black">send</i>
+            </button>
+
+        </div>
+    </div>
+    <button type="button" id="whats-openPopup" class="whatsapp-button">
+        <img class="icon-whatsapp" src="https://image.flaticon.com/icons/svg/134/134937.svg">
+    </button>
+    <div class="circle-anime"></div>
+</div>
+
+
+        <!-- main jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Whatsapp Script -->
+<script src="js/whatsapp.js"></script>
+</body>
+</html>
